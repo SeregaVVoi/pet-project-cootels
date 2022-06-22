@@ -225,7 +225,7 @@ body {
   flex-direction: row-reverse;
   flex-wrap: nowrap;
 }
-.activities{
+.activities {
   margin: 0 auto;
   max-width: 1095px;
 }
@@ -284,27 +284,94 @@ body {
   line-height: 150%;
   color: #848fac;
 }
-.organic__block{
+.organic__block {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   flex: 1 0 64.84%;
 }
-.organic__image{
+.organic__image {
   flex: 0 1 35.16%;
 }
-.organic__block__content{
+.organic__block__content {
   display: flex;
   align-items: center;
 }
-.organic__block-text{
+.organic__block-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 585px;
   max-height: 160px;
 }
-.organic{
+.organic {
   margin: 0 auto;
   max-width: 1095px;
+}
+.rooms__block-choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rooms__title {
+  padding-bottom: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #192252;
+}
+.rooms__block-text {
+  padding-bottom: 32px;
+  width: 588px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #848fac;
+}
+.rooms__block-show {
+  display: flex;
+  justify-content: space-between;
+}
+.rooms__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rooms__image{
+  display: flex;
+}
+.rooms__image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.rooms__card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+.rooms__card-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.rooms__more-more{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #424F7B;
 }
