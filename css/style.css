@@ -337,20 +337,27 @@ body {
 }
 .rooms__block-show {
   display: flex;
-  justify-content: space-between;
+}
+.button_blue-blue {
+  margin-bottom: 88px;
 }
 .rooms__cards {
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
 }
-.rooms__image{
+.rooms__image {
   display: flex;
+}
+.rooms__image-image {
+  padding-bottom: 32px;
 }
 .rooms__image img {
   max-width: 100%;
   border-radius: 4px;
 }
 .rooms__card-title {
+  padding-bottom: 16px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -360,6 +367,7 @@ body {
   color: #000000;
 }
 .rooms__card-text {
+  padding-bottom: 32px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -367,11 +375,71 @@ body {
   line-height: 150%;
   color: #848fac;
 }
-.rooms__more-more{
-font-family: 'Inter';
+.rooms__more-more {
+  padding-right: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.rooms__more-info img {
+  position: relative;
+  top: 8px;
+}
+.how-to-get-my {
+  display: flex;
+  flex: 0 1 50%;
+  flex-direction: column;
+}
+.how-to-get__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.how-to-get__title-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+}
+.how-to-get__info-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.how-to-get__explore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0e1734;
+}
+.options-text{
+  font-family: 'Montserrat';
 font-style: normal;
-font-weight: 400;
-font-size: 18px;
+font-weight: 600;
+font-size: 24px;
 line-height: 150%;
 color: #424F7B;
+}
+.options-round{
+width: 40px;
+height: 40px;
+left: 1244px;
+top: 110px;
+background-color: #FFECE2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100%;
 }
