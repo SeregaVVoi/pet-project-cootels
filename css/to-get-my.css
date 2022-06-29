@@ -1,0 +1,170 @@
+.to-get-my-room {
+  display: flex;
+}
+.how-to-get__contact {
+  display: flex;
+  align-items: center;
+}
+.how-to-get__title {
+  padding-bottom: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.how-to-get__title-title {
+  padding-bottom: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+}
+.how-to-get__info-text {
+  padding-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.how-to-get__explore {
+  padding-left: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0e1734;
+}
+.options-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.options-round {
+  width: 40px;
+  height: 40px;
+  left: 1244px;
+  top: 110px;
+  background-color: #ffece2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+}
+.round {
+  background: #ff620a;
+}
+.options {
+  display: flex;
+  flex: 0 1 50%;
+  max-width: 600px;
+}
+.how-to-get-my-room {
+  display: flex;
+  flex: 0 1 50%;
+  max-width: 600px;
+}
+.how-to-get-my-contact {
+  display: flex;
+  max-width: 408px;
+  justify-content: center;
+  flex-direction: column;
+}
+.options-block {
+  max-width: 588px;
+}
+.options-first-block {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 36px;
+  height: 100px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.options-round img {
+  position: relative;
+  top: 15px;
+  left: 11px;
+  right: 11px;
+  bottom: 15px;
+}
+.options-second-block {
+  display: flex;
+  flex-direction: column;
+  height: 188px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+.second-block-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 36px 24px 36px;
+}
+.how-to-get__info-text_2 {
+  padding: 0px 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.to-get-my {
+  margin-bottom: 160px;
+}
+@media (max-width: 1087px) {
+  .to-get-my-room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .how-to-get-my-room {
+    padding-bottom: 20px;
+  }
+  .how-to-get__contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  .how-to-get__title {
+    padding-bottom: 6px;
+  }
+  .how-to-get__title-title {
+    padding-bottom: 12px;
+  }
+  .how-to-get__info-text {
+    padding-bottom: 16px;
+  }
+  .options-round img {
+    left: 0px;
+  }
+  .options-first-block {
+    height: 80px;
+  }
+  .options-second-block {
+    height: 165px;
+  }
+  .to-get-my{
+    margin-bottom: 60px;
+  }
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+  .to-get-my{
+    margin-bottom: 40px;
+  }
+}

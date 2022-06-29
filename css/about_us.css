@@ -1,0 +1,77 @@
+.about_us__container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   position: relative;
+   margin-bottom: 90px;
+ }
+ .about_us__image {
+   display: flex;
+   flex: 1 0 45.23%;
+ }
+ .about_us__image img {
+   border-radius: 4px;
+   max-width: 100%;
+ }
+ .about_us__content {
+   display: flex;
+   align-items: center;
+   flex: 1 0 54.76%;
+ }
+ .about_us__block {
+   max-width: 615px;
+ }
+ .about_us__title {
+   padding-bottom: 24px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   letter-spacing: -0.01em;
+   color: #192252;
+ }
+ .about_us__block-text {
+   padding: 0px 0px 16px 0px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #848fac;
+ }
+ .block-text-second {
+   padding: 0px 0px 32px 0px;
+ }
+ @media (max-width: 1087px) {
+
+}
+/* Tablet  */
+@media (max-width: 991.98px) {
+  .about_us__content{
+    display: flex;
+    padding: 10px;
+  }
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+  .about_us__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_us__content{
+    text-align: center;
+  }
+  .about_us__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_us__title{
+    padding-bottom: 12px;
+  }
+  .block-text-second{
+    padding-bottom: 16px;
+  }
+}

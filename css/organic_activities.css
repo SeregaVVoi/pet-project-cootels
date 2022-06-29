@@ -1,0 +1,129 @@
+.cabin__image {
+   display: flex;
+   position: relative;
+   right: -110px;
+   flex: 0 1 50%;
+ }
+ .cabin__image img {
+   max-width: 100%;
+   border-radius: 4px;
+   padding-bottom: 32px;
+ }
+ .activities__container {
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: nowrap;
+ }
+ .activities {
+   margin: 0 auto;
+   padding: 0 10px;
+   max-width: 1095px;
+ }
+ .cabin__block__content {
+   display: flex;
+   flex: 50%;
+ }
+ .cabin__block-text {
+   display: flex;
+   flex-direction: column;
+   max-width: 600px;
+ }
+ .cabin__title {
+   padding-bottom: 40px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   letter-spacing: -0.01em;
+   color: #192252;
+ }
+ .cabin__text {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #848fac;
+ }
+ .cabin__block {
+   display: flex;
+   align-items: center;
+ }
+ .organic__container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   position: relative;
+ }
+ .organic__title {
+   padding-bottom: 24px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   letter-spacing: -0.01em;
+   color: #192252;
+ }
+ .organic__text {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #848fac;
+ }
+ .organic__block {
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+   flex: 1 0 64.84%;
+ }
+ .organic__image img{
+  max-width: 100%;
+  border-radius: 4px;
+ }
+ .organic__image {
+   flex: 0 1 35.16%;
+ }
+ .organic__block__content {
+   display: flex;
+   align-items: center;
+ }
+ .organic__block-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 585px;
+   max-height: 160px;
+ }
+ .organic {
+   padding-bottom: 160px;
+   margin: 0 auto;
+   padding: 0 10px;
+   max-width: 1095px;
+ }
+ @media (max-width: 1087px) {
+  .activities__container{
+    padding: 0 5px;
+  }
+  .cabin__image{
+    right: -50px;
+  }
+  .organic__block__content{
+    margin-left: 45px;
+  }
+}
+/* Tablet  */
+@media (max-width: 991.98px) {
+  .cabin__image{
+    right: -30px;
+  }
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+  .cabin__image{
+    right: -10px;
+  }
+}

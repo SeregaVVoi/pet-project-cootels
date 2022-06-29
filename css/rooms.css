@@ -1,0 +1,124 @@
+.rooms__block-choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rooms__title {
+  padding-bottom: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #192252;
+}
+.rooms__block-text {
+  padding-bottom: 32px;
+  width: 588px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #848fac;
+}
+.rooms__block-show {
+  display: flex;
+}
+.button_blue-blue {
+  margin-bottom: 88px;
+}
+.rooms__cards {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.rooms__image {
+  display: flex;
+}
+.rooms__image-image {
+  padding-bottom: 32px;
+}
+.rooms__image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.rooms__card-title {
+  padding-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+.rooms__card-text {
+  padding-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.rooms__more-more {
+  padding-right: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.rooms__more-info img {
+  position: relative;
+  top: 8px;
+}
+.rooms {
+  margin-bottom: 160px;
+}
+@media (max-width: 1087px) {
+  .rooms__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rooms__block-show{
+    display: flex;
+    flex-direction: column;
+  }
+  .rooms__cards{
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .rooms__image-image{
+    padding-bottom: 15px;
+  }
+  .rooms__card-title{
+    padding-bottom: 8px;
+  }
+  .rooms__card-text{
+    padding-bottom: 16px;
+  }
+  .button_blue-blue{
+    margin-bottom: 30px;
+  }
+  .rooms__block-text{
+    padding-bottom: 16px;
+  }
+  .rooms__title{
+    padding-bottom: 12px;
+  }
+  .rooms__card-text{
+    text-align: center;
+  }
+  .rooms{
+    margin-bottom: 60px;
+  }
+}
